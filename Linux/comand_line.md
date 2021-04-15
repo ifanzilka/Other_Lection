@@ -14,3 +14,11 @@
  Res:
  
     srcs
+
+Example:
+ 
+    echo sr??
+ Res:
+ 
+    srcs
+  
