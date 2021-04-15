@@ -8,14 +8,14 @@
   
   и т.д
  
- Example:
+#### Example:
  
     echo ????
  Res:
  
     srcs
 
-Example:
+#### Example:
  
     echo sr??
  Res:
