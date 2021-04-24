@@ -23,5 +23,12 @@
 
 ## У Докера такая же аналогии (ограничить процесс)
   
-  
+   Запуск Контейнера
+   
+   
     docker run ubuntu ls
+
+
+Чтобы получить stdin/stdout 
+
+    docker run --interactive ubuntu
