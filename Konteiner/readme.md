@@ -63,3 +63,6 @@
     docker volume ls
     //Create
     docker volume create my-volume     
+Используем
+
+    docker run --it --volume my-volume : /volume ubuntu
