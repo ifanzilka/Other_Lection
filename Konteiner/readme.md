@@ -92,4 +92,12 @@
      docker run -it --rm --network none ubuntu:14.04
      ifconfig
      ping ya.ru
-Не пингуется   
+Не пингуется
+
+
+Полный дотсуп :
+     
+     docker run -it --rm --network host ubuntu:14.04
+     ifconfig
+     ping ya.ru
+    
