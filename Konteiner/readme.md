@@ -49,3 +49,7 @@
 
     docker commit [CONTAINER]
     docker push [...]
+Заново запусукаем 
+
+    docker restart ...
+    docker attach ...
