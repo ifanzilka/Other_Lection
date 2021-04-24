@@ -66,3 +66,7 @@
 Используем
 
     docker run --it --volume my-volume : /volume ubuntu
+    
+Даем имя контейнеру
+    
+     docker run --it --name my-name --volume  $(pwd) : /task54 ubuntu
