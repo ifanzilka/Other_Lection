@@ -45,3 +45,7 @@
  Какие Докеры работают(процессы)
  
     docker ps
+Делаем изменения и загружаем 
+
+    docker commit [CONTAINER]
+    docker push [...]
