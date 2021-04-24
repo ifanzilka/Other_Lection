@@ -32,3 +32,7 @@
 Чтобы получить stdin/stdout 
 
     docker run --interactive ubuntu
+
+Чтобы подключить терминал 
+
+    docker run --interactive --tty ubuntu
