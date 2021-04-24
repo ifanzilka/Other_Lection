@@ -56,4 +56,10 @@
 Для получения доступа к файлам внутри контейнера
 
      docker run --it --volume $(pwd) : /task54 ubuntu
-(мы сказали чтобы папка pwd подмонтировалась в контейнер под названием /task54)     
+(мы сказали чтобы папка pwd подмонтировалась в контейнер под названием /task54)
+
+Список volume
+
+    docker volume ls
+    //Create
+    docker volume create my-volume     
