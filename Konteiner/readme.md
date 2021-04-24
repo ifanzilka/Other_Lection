@@ -75,3 +75,6 @@
     docker run --detach --publish 8080:80 nginx
   
    (С 8080 порта ПК на 80 порт контейнера)
+Удаление 
+
+    docker rm (хэш)
