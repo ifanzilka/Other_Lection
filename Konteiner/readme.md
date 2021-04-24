@@ -81,3 +81,13 @@
 ## Docker network
 
     docker network ls
+
+    docker run -it --rm ubuntu:14.04
+    ifconfig
+    ping ya.ru
+Работает все
+
+Выключаем доступ сети в контейнере
+  
+     docker run -it --rm --network none ubuntu:14.04
+   
