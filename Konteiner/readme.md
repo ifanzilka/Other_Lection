@@ -70,3 +70,6 @@
 Даем имя контейнеру
     
      docker run --it --name my-name --volume  $(pwd) : /task54 ubuntu
+Запуск в фоне и пробрасивание портов
+    
+    docker run --detach --publish 8080:80 nginx
