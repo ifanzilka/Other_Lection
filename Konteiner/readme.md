@@ -90,4 +90,6 @@
 Выключаем доступ сети в контейнере
   
      docker run -it --rm --network none ubuntu:14.04
-   
+     ifconfig
+     ping ya.ru
+Не пингуется   
