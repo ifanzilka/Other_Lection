@@ -53,3 +53,7 @@
 
     docker restart ...
     docker attach ...
+Для получения доступа к файлам внутри контейнера
+
+     docker run --it --volume $(pwd) : /task54 ubuntu
+(мы сказали чтобы папка pwd подмонтировалась в контейнер под названием /task54)     
