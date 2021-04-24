@@ -36,3 +36,8 @@
 Чтобы подключить терминал 
 
     docker run --interactive --tty ubuntu
+
+
+Скачиваем образ контейнера с dockerhub
+   
+    docker pull ubuntu
