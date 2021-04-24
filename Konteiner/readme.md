@@ -41,3 +41,7 @@
 Скачиваем образ контейнера с dockerhub
    
     docker pull ubuntu
+ 
+ Какие Докеры работают(процессы)
+ 
+    docker ps
