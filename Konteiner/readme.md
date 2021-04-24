@@ -102,3 +102,12 @@
      ping ya.ru
     
  Два разных контейнера могут общаться в рамках под сети (через утилиту nc напрмиер)
+
+
+## Делаем образ из Dockerfile
+
+     docker build . --tag  name
+     
+ Запуск
+ 
+     docker run --it --rm name
