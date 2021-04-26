@@ -306,15 +306,24 @@ tr [ОПЦИЯ]... СТРОКА_1 [СТРОКА_2]
 
 ### Команды  для работы с пользователями
 
--useradd
+1) useradd
+    
+        man  useradd 
+    
+    
+2) userdel
 
--userdel
+         man userdel
 
--userdel
 
--groupadd
 
--passwd
+3) groupadd
 
--gpasswd
-        
+         man groupadd
+
+4) passwd
+    
+          man passwd
+5) gpasswd
+           
+          man grpasswd
