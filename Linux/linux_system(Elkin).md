@@ -526,6 +526,8 @@ Alias l=’ls -l –color=auto’
 
 Вернуться из фона fg %\[номер команды]
 
+Команда jobs – покажет, что в фоне
+
         сat &
         [1] 31859
         [1]  + 31859 suspended (tty input)  cat 
