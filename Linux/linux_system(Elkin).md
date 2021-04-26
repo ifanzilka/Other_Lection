@@ -448,5 +448,7 @@ mark:$6$.n.:17736:0:99999:7:::
   
     usermod -L test
     
-
+3:
+    
+    passwd  -n 10
         
