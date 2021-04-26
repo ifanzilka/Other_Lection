@@ -54,4 +54,5 @@ Opt – дополнительно
             cat test | cut -d' ' -f1
             sdbfhbsdfb
             sdfnk
-        
+  
+ ### Head Tail  
