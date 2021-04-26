@@ -444,11 +444,15 @@ mark:$6$.n.:17736:0:99999:7:::
 1:
 
     sudo useradd -b /tmp/test -p pswd -s /bin/sh test
-2:Блокируем пароль
+    
+2 пароль:
+        
+    sudo passwd test 
+3:Блокируем пароль
   
     usermod -L test
     
-3:
+4 Cрок действия:
     
     passwd  -n 10
         
