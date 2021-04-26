@@ -43,6 +43,15 @@ Opt – дополнительно
          cut -d' ' -f4 myfile
        
 Примеры:
-    
-        
+
+        cat test
+    sdbfhbsdfb sdnj fb sbhd bf
+    sdfnk nsdj  dsjfj sj
+     sdlf mnksdn k
+     
+И применяем команду:
+
+            cat test | cut -d' ' -f1
+            sdbfhbsdfb
+            sdfnk
         
