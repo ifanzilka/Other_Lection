@@ -290,4 +290,12 @@ tr [ОПЦИЯ]... СТРОКА_1 [СТРОКА_2]
             :16:fi
             :17:
 
+### $(...)
+ $() конструкция позволяет подставить резултат выполнения программы 
+ 
+ Например:
+        
+        echo $(ls)
+        bin boot cdrom dev etc home initrd.img initrd.img.old lib lib64 lost+found media mnt opt proc root run sbin snap srv sys tmp usr var vmlinuz vmlinuz.old
+
         
