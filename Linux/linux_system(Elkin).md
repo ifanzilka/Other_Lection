@@ -121,7 +121,9 @@ C флагом -n
 
 Шаблон файла 
 
-login : password : UID : GID : GECOS : home : shell
+## login : password : UID : GID : GECOS : home : shell
+
+
 
 Каждая строка файла описывает одного пользователя и содержит семь полей, разделённых двоеточиями:
 
