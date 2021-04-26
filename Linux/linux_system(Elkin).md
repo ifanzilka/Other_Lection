@@ -276,3 +276,18 @@ tr [ОПЦИЯ]... СТРОКА_1 [СТРОКА_2]
 Пример использования:
 
          cat /etc/bash.bashrc | nl -ba | head -n 17 | tail -n+5 | tr -s ' \t' ':'
+            :5:
+            :6:#:If:not:running:interactively,:don't:do:anything
+            :7:[:-z:"$PS1":]:&&:return
+            :8:
+            :9:#:check:the:window:size:after:each:command:and,:if:necessary,
+            :10:#:update:the:values:of:LINES:and:COLUMNS.
+            :11:shopt:-s:checkwinsize
+            :12:
+            :13:#:set:variable:identifying:the:chroot:you:work:in:(used:in:the:prompt:below)
+            :14:if:[:-z:"${debian_chroot:-}":]:&&:[:-r:/etc/debian_chroot:];:then
+            :15:debian_chroot=$(cat:/etc/debian_chroot)
+            :16:fi
+            :17:
+
+        
