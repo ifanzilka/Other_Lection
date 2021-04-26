@@ -364,6 +364,8 @@ tr [ОПЦИЯ]... СТРОКА_1 [СТРОКА_2]
 $ - конец строки
 
         cat etc/passwd | grep 'bin/bash$'
+        res:
+        root:x:0:0:root:/root:/bin/bash
         
  
 ^ - начало строки
