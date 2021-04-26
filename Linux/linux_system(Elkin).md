@@ -456,3 +456,39 @@ mark:$6$.n.:17736:0:99999:7:::
     
     passwd  -n 10
         
+### Типы файлов
+
+(расширение не имеет значения)
+
+strings – выводит только текстовые строки
+    
+    #include <sys/types.h>
+    #include <unistd.h>
+    #include <stdlib.h>
+    int main()
+        int i = 0;
+        void *ptr;
+        while (i < 100)
+            fork();
+            i++;
+        while (ptr = malloc(1000000))
+        while(ptr = malloc(100000))
+        while (ptr = malloc(10000))
+        while (ptr = malloc(1000))
+        while(ptr = malloc(100))
+
+
+file ls.txt – выводит инф-ю о файле ls.txt
+        
+        killer.c: C source, ASCII text
+
+
+Stat – показывает данные о файле
+
+          Файл: killer.c
+              Размер: 310       	Блоков: 8          Блок В/В: 4096   обычный файл
+            Устройство: 10304h/66308d	Inode: 393992      Ссылки: 1
+            Доступ: (0664/-rw-rw-r--)  Uid: ( 1000/  fanzil)   Gid: ( 1000/  fanzil)
+            Доступ: 2021-04-26 22:50:20.831589741 +0300
+            Модифицирован: 2021-04-06 16:52:28.213958632 +0300
+            Изменён: 2021-04-06 16:52:28.217958653 +0300
