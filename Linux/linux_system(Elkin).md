@@ -353,3 +353,23 @@ tr [ОПЦИЯ]... СТРОКА_1 [СТРОКА_2]
 -v	Выдает все строки, за исключением содержащих образец.
 
 -w	Ищет выражение как слово, как если бы оно было окружено метасимволами \< и \>.
+
+## Пример:
+
+Задача: имя пользователя +оболочка
+
+         cat etc/passwd | cut -d: -f1,7
+
+
+$ - конец строки
+
+        cat etc/passwd | grep 'bin/bash$'
+        
+ 
+^ - начало строки
+
+         cat etc/passwd | grep '^system'
+         res:
+         systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+         systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+
