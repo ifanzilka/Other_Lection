@@ -192,3 +192,74 @@ c, --bytes
 
     cat file | head -n17 | tail -n+5 > new
     cat new | cut -d' ' -f1
+
+### nl
+Печатает каждый ФАЙЛ на стандартный вывод, добавляя номера строк. Если ФАЙЛ не задан или задан как -, читает стандартный ввод
+
+    cat test| nl
+     1	sdbfhbsdfb sdnj fb sbhd bf
+     2	sdfnk nsdj  dsjfj sj
+     3	 sdlf mnksdn ksdf ,lsd
+     4	 f
+
+     5	 dsf'
+     6	 sdf
+
+     7	 sd
+     8	 f
+     9	 sd
+    10	 f
+    11	 sdflpsd
+    12	 fsd
+
+
+    13	 d
+    14	 sf
+    15	 sd
+    16	 f
+    17	 sdg
+    18	 fdf
+    19	 g
+    20	 ree
+
+    21	 re
+
+    22	 e
+    23	 s
+    24	 d
+    
+    
+С опциями 
+
+    cat test| nl -ba
+     1	sdbfhbsdfb sdnj fb sbhd bf
+     2	sdfnk nsdj  dsjfj sj
+     3	 sdlf mnksdn ksdf ,lsd
+     4	 f
+     5
+     6	 dsf'
+     7	 sdf
+     8
+     9	 sd
+    10	 f
+    11	 sd
+    12	 f
+    13	 sdflpsd
+    14	 fsd
+    15
+    16
+    17	 d
+    18	 sf
+    19	 sd
+    20	 f
+    21	 sdg
+    22	 fdf
+    23	 g
+    24	 ree
+    25
+    26	 re
+    27
+    28	 e
+    29	 s
+    30	 d
+    31
