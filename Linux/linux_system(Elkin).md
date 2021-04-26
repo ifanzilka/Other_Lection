@@ -529,6 +529,5 @@ Alias l=’ls -l –color=auto’
 Восстановить из фона 
         
         fg
-        [1]  + 31859 continued  cat
-
-        
+        [1]  + 31859 continued  
+ Также чтобы убрать команду в фон можно CLtr + z       
