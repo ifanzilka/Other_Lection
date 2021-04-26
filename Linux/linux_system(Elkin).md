@@ -661,6 +661,8 @@ chmod g+s work делает так чтобы новые фалы созданн
     sudo chgrp work work
 
 Поменяли группу папке work на work
-
+     
+     setfacl -d -m g:work:rw work
+     getfacl work   
 
     
