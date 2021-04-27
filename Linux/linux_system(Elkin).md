@@ -736,3 +736,35 @@ root ALL = (ALL:ALL) ALL – эта строка означает, что пол
 
 
 https://1cloud.ru/help/linux/nastrojka-prav-polzovatelej-na-ubuntu
+
+### Apt-get
+
+
+apt-get - утилита управления APT -- интерфейс командной строки  
+
+apt-get [опции] [команда] [пакет ...]  
+
+ОПИСАНИЕ
+
+apt-get это инструмент командной строки для управления пакетами и может рассматриваться как пользовательский интерфейс к apt(8).
+командами служат:
+
+o      update
+
+o      upgrade
+
+o      dselect-upgrade [1]
+
+o      dist-upgrade
+
+o      install пакет1 [пакет2] [...]
+
+o      remove пакет1 [пакет2] [...]
+
+o      source пакет1 [пакет2] [...]
+
+o      check
+
+o      clean
+
+o      autoclean
