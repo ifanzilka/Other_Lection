@@ -2,4 +2,4 @@
 
     useradd -m -d /tmp/\<newbie\> -g adm -u 998  new_user
 ## 2 Запретить новому пользователю менять свой пароль, не ограничивая в этом других пользователей;
-     sudo passwd -n 99999 new_user 
+     sudo passwd -m 99999 new_user 
