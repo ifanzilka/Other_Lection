@@ -28,3 +28,9 @@
     sudo usermod -a -G new fanzil
     find -type f > my_file
     while read LINE; do chown:new $LINE;done < my_file
+
+## 7. Вывести имена 10 самых больших файлов каталога, к которым было доступ в этом году
+
+    find -type f -atime +0 -atime -360 > tmp
+    while read LINE;do du -a $LINE  >> tmp2; done < tmp
+     sort -n -k1 -r tmp2 | head -n10  |rev  | cut -d '/' -f1 | rev
