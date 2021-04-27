@@ -33,4 +33,4 @@
 
     find -type f -atime +0 -atime -360 > tmp
     while read LINE;do du -a $LINE  >> tmp2; done < tmp
-     sort -n -k1 -r tmp2 | head -n10  |rev  | cut -d '/' -f1 | rev
+    sort -n -k1 -r tmp2 | head -n10  | awk -F/ '{print $NF}'
