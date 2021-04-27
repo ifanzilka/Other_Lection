@@ -807,3 +807,22 @@ clean очищает локальное хранилище полученных 
 
 10) autoclean
 Как и clean, autoclean очищает локальное хранилище полученных файлов пакетов. Отличие состоит в том, что эта команда удаляет только те файлы пакетов, которые больше не могут быть получены и использованы. Это позволяет обслуживать кэш в течении длительного периода без потери контроля над ним.
+
+Файл:
+
+       vim  /etc/apt/sources/list
+       deb http://ru.archive.ubuntu.com/ubuntu/ bionic multiverse
+       # deb-src http://ru.archive.ubuntu.com/ubuntu/ bionic multiverse
+        deb http://ru.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+        # deb-src http://ru.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+
+
+Поля(разделены пробелами):
+
+1) тип пакета
+
+2) ссылка, где расположен репозиторий
+
+3) версия дистрибутива (прогр должна знать какую версию ей скачивать), абс адресация – по имени, относит – по ветке (oldstable, stable, testing, unstable)
+
+4) main / contrib / non-free ( или их комбинации
