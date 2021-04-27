@@ -21,3 +21,10 @@
 ## 5. Узнайте, какой каталог в вашей системе имеет самую большую степень вложенности в другие директории
    
     find -type d | awk -F/ '{print NF-1,$0}' > file_my ; sort -n -k1 file_my | tail -n1
+
+## 6  Добавить новую группу (любую). Добавить себя в эту группу. Найти все файлы в домашнем каталоге и сменить их группу на новую.
+
+    sudo groupadd "new"
+    sudo usermod -a -G new fanzil
+    find -type f > my_file
+    while read LINE; do chown:new $LINE;done < my_file
