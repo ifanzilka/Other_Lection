@@ -11,11 +11,11 @@
 
 ![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.16.26%20PM.png)
 
-![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.04.32%20PM.png)
+![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.18.35%20PM.png)
 
-![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.04.32%20PM.png)
+![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.24.52%20PM.png)
 
-![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.04.32%20PM.png)
+![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.26.31%20PM.png)
 
 ![This is a alt text.](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection02/Screen%20Shot%202021-05-17%20at%207.04.32%20PM.png)
 
