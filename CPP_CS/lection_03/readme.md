@@ -13,3 +13,4 @@
 ![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2011.20.34%20PM.png)
 ![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2011.28.20%20PM.png)
 ![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2011.34.08%20PM.png)
+![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2011.44.43%20PM.png)
