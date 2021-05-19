@@ -9,3 +9,4 @@
 ![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2010.57.21%20PM.png)
 ![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2011.05.27%20PM.png)
 ![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2011.08.26%20PM.png)
+![](https://github.com/ifanzilka/Other_Lection/blob/master/CPP_CS/lection_03/Screen%20Shot%202021-05-19%20at%2011.13.01%20PM.png)
