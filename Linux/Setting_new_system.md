@@ -1,10 +1,15 @@
 
+### Обновляем
+
     sudo apt-get update
 
     sudo apt-get upgrade
 
+### Проги 
 
     sudo apt-get intsall vim
+
+### Установка .deb файла
 
     sudo dpkg -i *.deb
     
